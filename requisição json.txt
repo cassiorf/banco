@@ -1,0 +1,7 @@
+// REQUISIÇÃO POST
+{
+    "nome": "Cassio",
+    "email": "cassio.fogarin@gmail.com",
+    "cpf": "395.209.758-61",
+    "nascimento": "16-10-1990"
+}

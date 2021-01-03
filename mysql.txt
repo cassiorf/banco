@@ -1,0 +1,14 @@
+// Criando BANCO
+create database banco
+default character set utf8
+default collate utf8_general_ci;
+
+// CRIANDO TABELAS
+create table pessoafisica (
+id int not null auto_increment,
+nome varchar(64) not null,
+email varchar(64) not null unique,
+cpf char(15) not null unique,
+nascimento date not null,
+primary key (id)
+) default charset = utf8;
